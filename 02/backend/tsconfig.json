@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Modern JS version
+    "module": "ESNext",                // For ESM modules
+    "moduleResolution": "node",        // Resolve node_modules correctly
+    "esModuleInterop": true,           // Allows `import express from "express"`
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                     // Type-checking enabled
+    "skipLibCheck": true                // Skip checking node_modules types
+  },
+  "include": ["src/**/*"]
+}
